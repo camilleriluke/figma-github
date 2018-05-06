@@ -1,0 +1,27 @@
+{
+	"name": "Figma GitHub",
+	"version": "1.0.0",
+	"description": "Embed Figma viewer within GitHub",
+	"homepage_url": "https://github.com/camilleriluke/figma-github",
+	"manifest_version": 2,
+	"minimum_chrome_version": "58",
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://github.com/*"
+			],
+			"js": [
+				"browser-polyfill.min.js",
+				"content.js"
+			]
+		}
+	],
+	"permissions": [
+		"https://github.com/*"
+	],
+	"web_accessible_resources": [
+		"iframe.html",
+		"iframe.js"
+	]
+}
