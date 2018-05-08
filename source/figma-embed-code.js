@@ -1,7 +1,7 @@
 import { h } from 'dom-chef';
 
 export const figmaEmbedURL = figmaFileURL =>
-	`https://www.figma.com/embed?embed_host=share&url=${figmaFileURL}`;
+	`https://www.figma.com/embed?embed_host=github-figma&url=${figmaFileURL}`;
 
 export default (figmaFileURL, { width = '650', height = '450' } = {}) => (
 	<iframe
