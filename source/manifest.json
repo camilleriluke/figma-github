@@ -1,6 +1,6 @@
 {
 	"name": "Figma GitHub",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "Browser extension that adds real-time Figma designs within GitHub",
 	"homepage_url": "https://github.com/camilleriluke/figma-github",
 	"manifest_version": 2,
