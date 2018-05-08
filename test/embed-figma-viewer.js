@@ -5,7 +5,7 @@ import select from 'select-dom';
 import {
 	selectFigmaLinks,
 	embedViewerAfterTag
-} from '../source/features/embed-figma-viewer';
+} from '../source/embed-figma-viewer';
 
 global.document = new JSDOM().window.document;
 global.browser = {
