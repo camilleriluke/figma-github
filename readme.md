@@ -12,6 +12,9 @@ Figma Github extension searches for Figma URLs and uses [Figma Live Embed Kit
 
 - [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/bieeiojdjdkkacfckmaamnbinloppgjf.svg">][link-cws]
 
+## Thanks
+- [@chrisscicluna](https://medium.com/@chrisscicluna) - for the awesome logo 👏
+
 ## License
 
 MIT
