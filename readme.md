@@ -6,7 +6,7 @@ Figma Github extension searches for Figma URLs and uses [Figma Live Embed Kit
 
 <img width="778" alt="Embed real-time Figma designs" src="https://user-images.githubusercontent.com/1117126/39676643-a37f372e-516e-11e8-8a7b-8b83849b43b9.png">
 
-[link-cws]: https://chrome.google.com/webstore/detail/bieeiojdjdkkacfckmaamnbinloppgjf/publish-accepted "Version published on Chrome Web Store"
+[link-cws]: https://chrome.google.com/webstore/detail/bieeiojdjdkkacfckmaamnbinloppgjf "Version published on Chrome Web Store"
 
 ## Install
 
