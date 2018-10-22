@@ -4,7 +4,8 @@
 		"test": "cross-env BABEL_ENV=testing ava",
 		"webpack": "cross-env node -r babel-register node_modules/.bin/webpack",
 		"watch": "npm run webpack -- --mode=development --watch",
-		"build": "npm run webpack -- --mode=production"
+		"build": "npm run webpack -- --mode=production && npm run zip",
+		"zip": "bestzip distribution.zip distribution/*"
 	},
 	"dependencies": {
 		"dom-chef": "^3.1.0",
@@ -20,6 +21,7 @@
 		"babel-loader": "^7.1.4",
 		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"babel-register": "^6.26.0",
+		"bestzip": "^2.1.2",
 		"copy-webpack-plugin": "^4.5.1",
 		"cross-env": "^5.1.4",
 		"prettier": "^1.12.1",
