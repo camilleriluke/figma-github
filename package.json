@@ -28,7 +28,7 @@
 		"uglifyjs-webpack-plugin": "^1.2.5",
 		"webextension-polyfill": "^0.2.1",
 		"webpack": "^4.7.0",
-		"webpack-cli": "^2.1.2",
+		"webpack-cli": "^3.1.2",
 		"xo": "*"
 	},
 	"xo": {
