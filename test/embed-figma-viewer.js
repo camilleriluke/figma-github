@@ -14,6 +14,14 @@ global.browser = {
 	}
 };
 
+const keys = [
+	'DocumentFragment',
+];
+
+keys.forEach((key) => {
+	global[key] = document.defaultView[key]
+})
+
 test('Selects all figma links from DOM', t => {
 	const dom = new JSDOM(
 		`<div class="comment">
