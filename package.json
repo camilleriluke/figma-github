@@ -81,6 +81,8 @@
 	},
 	"stylelint": {
 		"extends": "stylelint-config-xo",
-		"rules": {}
+		"rules": {
+			"declaration-block-trailing-semicolon": ["never"]
+		}
 	}
 }
