@@ -41,9 +41,9 @@ module.exports = () => ({
 			new UglifyJsPlugin({
 				uglifyOptions: {
 					mangle: false,
-					compress: false,
+					compress: true,
 					output: {
-						beautify: true,
+						beautify: false,
 						indent_level: 2 // eslint-disable-line camelcase
 					}
 				}
